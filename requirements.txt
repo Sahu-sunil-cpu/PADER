@@ -1,0 +1,7 @@
+pandas
+numpy
+openpyxl
+python-docx
+google-genai
+python-dotenv
+pytest>=7.0
