@@ -1,0 +1,242 @@
+{
+  "data_quality": {
+    "raw_rows": 1068,
+    "columns": 67,
+    "unique_cases": 1024,
+    "canonical_cases": 1024,
+    "multiple_version_cases": 41,
+    "parsed_reaction_records": 3648,
+    "missing_values": 15569
+  },
+  "reporting_period": {
+    "available": true,
+    "start_date": "2024-12-27",
+    "end_date": "2025-12-26",
+    "start_month": "2024-12",
+    "end_month": "2025-12"
+  },
+  "case_summary": {
+    "total_cases": 1024,
+    "serious_cases": 1023,
+    "non_serious_cases": 1,
+    "serious_percentage": 99.9,
+    "seriousness_breakdown": {
+      "death": {
+        "count": 68,
+        "available": true
+      },
+      "life_threatening": {
+        "count": 105,
+        "available": true
+      },
+      "hospitalization": {
+        "count": 482,
+        "available": true
+      },
+      "disabling": {
+        "count": 44,
+        "available": true
+      },
+      "congenital_anomaly": {
+        "count": 7,
+        "available": true
+      },
+      "other": {
+        "count": 905,
+        "available": true
+      }
+    }
+  },
+  "alert_summary": {
+    "available": true,
+    "alert_cases": 1023,
+    "serious_alert_cases": 1023,
+    "non_serious_alert_cases": 0,
+    "alert_reaction_records": 3645,
+    "top_alert_reactions": {
+      "Acute kidney injury": 81,
+      "Drug ineffective": 59,
+      "Hypotension": 48,
+      "Drug interaction": 45,
+      "Dizziness": 40,
+      "Bradycardia": 39,
+      "Dyspnoea": 39,
+      "Fatigue": 35,
+      "Off label use": 34,
+      "Diarrhoea": 33
+    },
+    "alert_outcome_distribution": {
+      "recovered/resolved": 1347,
+      "unknown": 1138,
+      "not recovered/not resolved/ongoing": 569,
+      "recovering/resolving": 420,
+      "fatal": 137,
+      "recovered/resolved with sequelae": 34
+    }
+  },
+  "demographics": {
+    "sex": {
+      "female": 503,
+      "male": 493,
+      "Unknown": 28
+    },
+    "age_groups": {
+      "<18": 16,
+      "18-44": 44,
+      "45-64": 204,
+      "65-74": 266,
+      "75+": 408,
+      "Unknown": 86
+    },
+    "occurrence_country": {
+      "eu": 342,
+      "united kingdom": 278,
+      "france": 185,
+      "canada": 55,
+      "italy": 51,
+      "germany": 33,
+      "spain": 24,
+      "poland": 18,
+      "portugal": 8,
+      "Unknown": 7,
+      "united states": 4,
+      "IE": 3,
+      "RO": 2,
+      "belgium": 2,
+      "HR": 2,
+      "UA": 2,
+      "sweden": 2,
+      "SA": 2,
+      "FI": 1,
+      "australia": 1,
+      "indonesia": 1,
+      "china": 1
+    },
+    "primary_source_country": {
+      "eu": 345,
+      "united kingdom": 281,
+      "france": 185,
+      "canada": 56,
+      "italy": 51,
+      "germany": 33,
+      "spain": 24,
+      "poland": 18,
+      "portugal": 8,
+      "united states": 4,
+      "IE": 3,
+      "RO": 2,
+      "belgium": 2,
+      "HR": 2,
+      "UA": 2,
+      "sweden": 2,
+      "SA": 2,
+      "FI": 1,
+      "australia": 1,
+      "indonesia": 1,
+      "china": 1
+    },
+    "reporter_country": {
+      "eu": 345,
+      "united kingdom": 281,
+      "france": 185,
+      "canada": 56,
+      "italy": 51,
+      "germany": 33,
+      "spain": 24,
+      "poland": 18,
+      "portugal": 8,
+      "united states": 4,
+      "IE": 3,
+      "RO": 2,
+      "belgium": 2,
+      "HR": 2,
+      "UA": 2,
+      "sweden": 2,
+      "SA": 2,
+      "FI": 1,
+      "australia": 1,
+      "indonesia": 1,
+      "china": 1
+    },
+    "reporter_qualification": {
+      "physician": 492,
+      "pharmacist": 255,
+      "other health professional": 162,
+      "consumer or non-health professional": 115
+    }
+  },
+  "reactions": {
+    "total_reaction_records": 3648,
+    "unique_reactions": 1122,
+    "most_common_reactions": {
+      "Acute kidney injury": 81,
+      "Drug ineffective": 60,
+      "Hypotension": 48,
+      "Drug interaction": 45,
+      "Dizziness": 40,
+      "Bradycardia": 39,
+      "Dyspnoea": 39,
+      "Fatigue": 35,
+      "Off label use": 34,
+      "Diarrhoea": 33
+    },
+    "outcome_distribution": {
+      "recovered/resolved": 1347,
+      "unknown": 1141,
+      "not recovered/not resolved/ongoing": 569,
+      "recovering/resolving": 420,
+      "fatal": 137,
+      "recovered/resolved with sequelae": 34
+    },
+    "most_common_serious_reactions": {
+      "Acute kidney injury": 81,
+      "Drug ineffective": 59,
+      "Hypotension": 48,
+      "Drug interaction": 45,
+      "Dizziness": 40,
+      "Bradycardia": 39,
+      "Dyspnoea": 39,
+      "Fatigue": 35,
+      "Off label use": 34,
+      "Diarrhoea": 33
+    }
+  },
+  "monthly_trend": {
+    "2024-12": 21,
+    "2025-01": 75,
+    "2025-02": 94,
+    "2025-03": 83,
+    "2025-04": 78,
+    "2025-05": 80,
+    "2025-06": 84,
+    "2025-07": 109,
+    "2025-08": 64,
+    "2025-09": 76,
+    "2025-10": 102,
+    "2025-11": 75,
+    "2025-12": 83
+  },
+  "trend_observations": {
+    "observation": "The highest monthly case count was 109 in 2025-07, while the lowest was 21 in 2024-12.",
+    "peak_month": "2025-07",
+    "peak_cases": 109,
+    "lowest_month": "2024-12",
+    "lowest_cases": 21,
+    "average_monthly_cases": 78.77
+  },
+  "case_index": {
+    "total_cases": 1024,
+    "listing_rows": 3648,
+    "unique_case_ids": 1024,
+    "granularity": "reaction_record",
+    "export_path": "case_listing.csv",
+    "fields_included": [
+      "case_id",
+      "reaction",
+      "seriousness",
+      "reporting_date",
+      "country",
+      "outcome"
+    ]
+  }
+}

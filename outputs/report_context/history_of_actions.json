@@ -1,0 +1,12 @@
+{
+  "section": "History of Actions",
+  "approved_evidence": {
+    "actions_provided": false,
+    "statement": "No history-of-actions information was supplied with the dataset."
+  },
+  "evidence_ids": [],
+  "instructions": [
+    "Explicitly state that no history-of-actions information was supplied.",
+    "Do not invent labeling changes, regulatory communications, studies, or risk-minimization actions."
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "section": "Summary Analysis of Cases",
+  "approved_evidence": {
+    "total_cases": 1024,
+    "serious_cases": 1023,
+    "non_serious_cases": 1,
+    "serious_percentage": 99.9,
+    "seriousness_breakdown": {
+      "death": {
+        "count": 68,
+        "available": true
+      },
+      "life_threatening": {
+        "count": 105,
+        "available": true
+      },
+      "hospitalization": {
+        "count": 482,
+        "available": true
+      },
+      "disabling": {
+        "count": 44,
+        "available": true
+      },
+      "congenital_anomaly": {
+        "count": 7,
+        "available": true
+      },
+      "other": {
+        "count": 905,
+        "available": true
+      }
+    },
+    "age_groups": {
+      "<18": 16,
+      "18-44": 44,
+      "45-64": 204,
+      "65-74": 266,
+      "75+": 408,
+      "Unknown": 86
+    },
+    "sex": {
+      "female": 503,
+      "male": 493,
+      "Unknown": 28
+    },
+    "occurrence_country": {
+      "eu": 342,
+      "united kingdom": 278,
+      "france": 185,
+      "canada": 55,
+      "italy": 51,
+      "germany": 33,
+      "spain": 24,
+      "poland": 18,
+      "portugal": 8,
+      "Unknown": 7,
+      "united states": 4,
+      "IE": 3,
+      "RO": 2,
+      "belgium": 2,
+      "HR": 2,
+      "UA": 2,
+      "sweden": 2,
+      "SA": 2,
+      "FI": 1,
+      "australia": 1,
+      "indonesia": 1,
+      "china": 1
+    },
+    "primary_source_country": {
+      "eu": 345,
+      "united kingdom": 281,
+      "france": 185,
+      "canada": 56,
+      "italy": 51,
+      "germany": 33,
+      "spain": 24,
+      "poland": 18,
+      "portugal": 8,
+      "united states": 4,
+      "IE": 3,
+      "RO": 2,
+      "belgium": 2,
+      "HR": 2,
+      "UA": 2,
+      "sweden": 2,
+      "SA": 2,
+      "FI": 1,
+      "australia": 1,
+      "indonesia": 1,
+      "china": 1
+    },
+    "reporter_country": {
+      "eu": 345,
+      "united kingdom": 281,
+      "france": 185,
+      "canada": 56,
+      "italy": 51,
+      "germany": 33,
+      "spain": 24,
+      "poland": 18,
+      "portugal": 8,
+      "united states": 4,
+      "IE": 3,
+      "RO": 2,
+      "belgium": 2,
+      "HR": 2,
+      "UA": 2,
+      "sweden": 2,
+      "SA": 2,
+      "FI": 1,
+      "australia": 1,
+      "indonesia": 1,
+      "china": 1
+    },
+    "reporter_qualification": {
+      "physician": 492,
+      "pharmacist": 255,
+      "other health professional": 162,
+      "consumer or non-health professional": 115
+    },
+    "outcome_distribution": {
+      "recovered/resolved": 1347,
+      "unknown": 1141,
+      "not recovered/not resolved/ongoing": 569,
+      "recovering/resolving": 420,
+      "fatal": 137,
+      "recovered/resolved with sequelae": 34
+    }
+  },
+  "evidence_ids": [
+    "E001",
+    "E002",
+    "E003",
+    "E004",
+    "E005",
+    "E007"
+  ],
+  "instructions": [
+    "Report supplied counts exactly.",
+    "Describe demographic distributions without clinical interpretation.",
+    "Seriousness categories may overlap; never add them to derive a total.",
+    "Use occurrence country as the primary geographic distribution and label it clearly.",
+    "Do not infer causality, risk factors, or clinical significance."
+  ]
+}

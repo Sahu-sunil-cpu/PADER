@@ -1,0 +1,51 @@
+{
+  "section": "Reaction / Adverse Event Analysis",
+  "approved_evidence": {
+    "total_reaction_records": 3648,
+    "unique_reactions": 1122,
+    "most_common_reactions": {
+      "Acute kidney injury": 81,
+      "Drug ineffective": 60,
+      "Hypotension": 48,
+      "Drug interaction": 45,
+      "Dizziness": 40,
+      "Bradycardia": 39,
+      "Dyspnoea": 39,
+      "Fatigue": 35,
+      "Off label use": 34,
+      "Diarrhoea": 33
+    },
+    "most_common_serious_reactions": {
+      "Acute kidney injury": 81,
+      "Drug ineffective": 59,
+      "Hypotension": 48,
+      "Drug interaction": 45,
+      "Dizziness": 40,
+      "Bradycardia": 39,
+      "Dyspnoea": 39,
+      "Fatigue": 35,
+      "Off label use": 34,
+      "Diarrhoea": 33
+    },
+    "outcome_distribution": {
+      "recovered/resolved": 1347,
+      "unknown": 1141,
+      "not recovered/not resolved/ongoing": 569,
+      "recovering/resolving": 420,
+      "fatal": 137,
+      "recovered/resolved with sequelae": 34
+    }
+  },
+  "evidence_ids": [
+    "E006",
+    "E007"
+  ],
+  "instructions": [
+    "Report MedDRA Preferred Terms at the PT level.",
+    "Report both overall and serious-case reaction frequencies when present.",
+    "State that reaction counts represent reaction records, not unique cases.",
+    "Outcome counts also refer to reaction records.",
+    "Do not invent System Organ Class groupings.",
+    "Do not infer causality."
+  ]
+}

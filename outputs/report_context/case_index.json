@@ -1,0 +1,28 @@
+{
+  "section": "Case Index / Listing",
+  "approved_evidence": {
+    "total_cases": 1024,
+    "listing_rows": 3648,
+    "unique_case_ids": 1024,
+    "granularity": "reaction_record",
+    "export_path": "case_listing.csv",
+    "fields_included": [
+      "case_id",
+      "reaction",
+      "seriousness",
+      "reporting_date",
+      "country",
+      "outcome"
+    ]
+  },
+  "evidence_ids": [
+    "E001",
+    "E012"
+  ],
+  "instructions": [
+    "State that a structured CSV case listing accompanies the report.",
+    "Use the supplied listing filename and fields exactly.",
+    "Do not enumerate individual case records in prose.",
+    "Do not invent case information."
+  ]
+}

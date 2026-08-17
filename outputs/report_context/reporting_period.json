@@ -1,0 +1,48 @@
+{
+  "section": "Reporting Period",
+  "approved_evidence": {
+    "start_date": "2024-12-27",
+    "end_date": "2025-12-26",
+    "start_month": "2024-12",
+    "end_month": "2025-12",
+    "months_with_data": [
+      "2024-12",
+      "2025-01",
+      "2025-02",
+      "2025-03",
+      "2025-04",
+      "2025-05",
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12"
+    ],
+    "monthly_case_counts": {
+      "2024-12": 21,
+      "2025-01": 75,
+      "2025-02": 94,
+      "2025-03": 83,
+      "2025-04": 78,
+      "2025-05": 80,
+      "2025-06": 84,
+      "2025-07": 109,
+      "2025-08": 64,
+      "2025-09": 76,
+      "2025-10": 102,
+      "2025-11": 75,
+      "2025-12": 83
+    }
+  },
+  "evidence_ids": [
+    "E010",
+    "E008"
+  ],
+  "instructions": [
+    "State the exact reporting period only when supported by receivedate.",
+    "Do not invent an NDA/application identifier because none is supplied.",
+    "Do not infer a reporting frequency beyond the supplied dates."
+  ]
+}

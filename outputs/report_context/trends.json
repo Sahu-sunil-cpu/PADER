@@ -1,0 +1,46 @@
+{
+  "section": "Trends and Important Observations",
+  "approved_evidence": {
+    "reporting_period": {
+      "available": true,
+      "start_date": "2024-12-27",
+      "end_date": "2025-12-26",
+      "start_month": "2024-12",
+      "end_month": "2025-12"
+    },
+    "monthly_case_counts": {
+      "2024-12": 21,
+      "2025-01": 75,
+      "2025-02": 94,
+      "2025-03": 83,
+      "2025-04": 78,
+      "2025-05": 80,
+      "2025-06": 84,
+      "2025-07": 109,
+      "2025-08": 64,
+      "2025-09": 76,
+      "2025-10": 102,
+      "2025-11": 75,
+      "2025-12": 83
+    },
+    "trend_observation": {
+      "observation": "The highest monthly case count was 109 in 2025-07, while the lowest was 21 in 2024-12.",
+      "peak_month": "2025-07",
+      "peak_cases": 109,
+      "lowest_month": "2024-12",
+      "lowest_cases": 21,
+      "average_monthly_cases": 78.77
+    }
+  },
+  "evidence_ids": [
+    "E008",
+    "E009",
+    "E010"
+  ],
+  "instructions": [
+    "Describe temporal observations only.",
+    "Use supplied dates and counts exactly.",
+    "Do not perform new calculations.",
+    "Do not infer causality or a safety signal."
+  ]
+}

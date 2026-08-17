@@ -1,0 +1,89 @@
+{
+  "section": "Serious Cases / 15-Day Alerts",
+  "approved_evidence": {
+    "total_cases": 1024,
+    "serious_cases": 1023,
+    "non_serious_cases": 1,
+    "serious_percentage": 99.9,
+    "seriousness_breakdown": {
+      "death": {
+        "count": 68,
+        "available": true
+      },
+      "life_threatening": {
+        "count": 105,
+        "available": true
+      },
+      "hospitalization": {
+        "count": 482,
+        "available": true
+      },
+      "disabling": {
+        "count": 44,
+        "available": true
+      },
+      "congenital_anomaly": {
+        "count": 7,
+        "available": true
+      },
+      "other": {
+        "count": 905,
+        "available": true
+      }
+    },
+    "15_day_alerts": {
+      "available": true,
+      "alert_cases": 1023,
+      "serious_alert_cases": 1023,
+      "non_serious_alert_cases": 0,
+      "alert_reaction_records": 3645,
+      "top_alert_reactions": {
+        "Acute kidney injury": 81,
+        "Drug ineffective": 59,
+        "Hypotension": 48,
+        "Drug interaction": 45,
+        "Dizziness": 40,
+        "Bradycardia": 39,
+        "Dyspnoea": 39,
+        "Fatigue": 35,
+        "Off label use": 34,
+        "Diarrhoea": 33
+      },
+      "alert_outcome_distribution": {
+        "recovered/resolved": 1347,
+        "unknown": 1138,
+        "not recovered/not resolved/ongoing": 569,
+        "recovering/resolving": 420,
+        "fatal": 137,
+        "recovered/resolved with sequelae": 34
+      }
+    },
+    "top_serious_reactions": {
+      "Acute kidney injury": 81,
+      "Drug ineffective": 59,
+      "Hypotension": 48,
+      "Drug interaction": 45,
+      "Dizziness": 40,
+      "Bradycardia": 39,
+      "Dyspnoea": 39,
+      "Fatigue": 35,
+      "Off label use": 34,
+      "Diarrhoea": 33
+    }
+  },
+  "evidence_ids": [
+    "E002",
+    "E003",
+    "E004",
+    "E006",
+    "E011"
+  ],
+  "instructions": [
+    "Use fulfillexpeditecriteria as the explicit dataset field for Alert-case identification.",
+    "Report alert counts only from the supplied alert evidence.",
+    "Seriousness categories are independent and may overlap.",
+    "Do not add seriousness categories together.",
+    "Do not invent expectedness, labeling status, submission dates, or case narratives.",
+    "Do not infer causality or clinical significance."
+  ]
+}
